@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "bundle_front": "browserify index.js -o front/index.js",
+    "minify_front": "ccjs front/index.js > front/index_.js; mv front/index_.js front/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
