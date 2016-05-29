@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: arial;
+}
+.page_title {
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+    cursor: pointer;
+    font-color: rgb(37, 47, 67);
+}
+.page_title:hover {
+    text-decoration: underline;
+}
+.foo {
+    font-size: 70px;
+}
+
+.search_filter {
+    width: 100%;
+    text-align: center;
+}
+.search_filter_type {
+    width: 90px;
+    height: 28px;
+    margin: 4px;
+    vertical-align: top;
+    display: inline-block;
+}
+.search_filter_text {
+    margin: 4px;
+    width: 400px;
+    height: 28px;
+    padding: 3px;
+    font-size: 16px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.search_results_container {
+    width: 100%;
+    padding: 12px 100px;
+}
+
+.search_results {
+    border: 1px solid rgb(244,244,246);
+    background-color: rgb(249,249,251);
+    border-radius: 6px;
+}
+
+.search_result {
+    margin: 6px;
+}
+
+.search_result_title {
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(0,0,200);
+}
+
+.search_result_title:hover {
+    text-decoration: underline;
+}
+
+.search_result_author_by {
+    font-weight: bold;
+}
+
+.search_result_author_name {
+    font-style: italic;
+}
+
+.entry_row {
+    width: 100%;
+    text-align: center;
+    margin: 6px;
+}
+
+.entry_text {
+    width: 460px;
+    height: 28px;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.entry_button_row {
+    width: 100%;
+    text-align: center;
+}
+
+.entry_button {
+    font-size: 16px;
+    font-family: verdana;
+    border: 2px solid rgb(200,200,200);
+    border-radius: 4px;
+    background-color: rgb(250,250,250);
+    width: 100px;
+    padding: 6px;
+    margin: 3px;
+    cursor: pointer;
+}
+.entry_title {
+    padding: 4px;
+    width: 60px;
+    display: inline-block;
+}
+.entry_button:hover {
+    background-color: rgb(230,230,230);
+}
